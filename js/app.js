@@ -179,7 +179,7 @@ const album1 = {
   // Exercise 8:  Using the talkingHeadsAlbums array, assign album5's 
   //labels property to a variable named labels
 
-  //talkingHeadsAlbums.album5=album5
+
   
 let labels=talkingHeadsAlbums[4].albumDetails.labels
  
@@ -188,12 +188,8 @@ let labels=talkingHeadsAlbums[4].albumDetails.labels
   // Exercise 9:  Using the talkingHeadsAlbums array, assign album7's
   // released property to album6's released property
   
-  talkingHeadsAlbums.album6=album6
- // console.log(  talkingHeadsAlbums.album7=album7)
-  
-  talkingHeadsAlbums.album6.albumDetails.released=album7.albumDetails.released
-  
-
+ 
+talkingHeadsAlbums[5].albumDetails.released=talkingHeadsAlbums[6].albumDetails.released
   
   // Exercise 10:  Using the pre-defined variable named albumIdx below, 
   //assign the albumDetails object of the album located within the 
@@ -203,8 +199,6 @@ let labels=talkingHeadsAlbums[4].albumDetails.labels
   let albumIdx = 4;
 
   let albumDetails= talkingHeadsAlbums[albumIdx]
- // albumDetails.albumDetails.released=new Date(albumDetails.albumDetails.released)
-  
 
   albumDetails.albumDetails.released= new Date(albumDetails.albumDetails.released)
   
